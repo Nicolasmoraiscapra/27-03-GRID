@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+background-color: antiquewhite;
+}
+@font-face {
+    font-family: Pascoa;
+    src: url('../fontes/Easter\ Rabbits\ TTF\ Personal.ttf');
+}
+@font-face {
+    font-family: Letras;
+    src: url('../fontes/Friz\ Quadrata\ Italic.ttf');
+}
+
+.titulo{
+     font-family: Pascoa;
+     font-size: 2.8rem;
+     letter-spacing: 5px;
+     background-color: rgba(210, 105, 30, 0.822);
+     color: rgb(252, 252, 252);
+     text-align: center;
+     padding: 8px 0;
+}
+.img1{
+    width: 800px;
+    border: 4px solid black;
+    border-radius: 6px;
+}
+.img2{
+    width: 800px;
+    border: 4px solid rgb(134, 110, 110);
+    border-radius: 6px;
+}
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+}
+.areaSuperior{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-gap: 10px;
+}
+.dv2{
+    width: 900px;
+}
+.txt {
+    text-align: justify;
+    font-family: Letras;
+    font-size: 2.2rem;
+    margin-top: 15px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+@media(max-width: 480px) {
+    .titulo{
+        font-family: Pascoa;
+        font-size: 1.7rem;
+        letter-spacing: 5px;
+        background-color: rgba(210, 105, 30, 0.822);
+        color: rgb(252, 252, 252);
+        text-align: center;
+        padding: 4px 0;
+   }
+   .img1{
+    width: 650x;
+    height: 650px;
+    border: 4px solid black;
+    border-radius: 6px;
+}
+.img2{
+    width: 650px;
+    height: 650px;
+    border: 4px solid rgb(134, 110, 110);
+    border-radius: 6px;
+}
+.areaSuperior{
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    grid-gap: 20px;
+}
+.txt {
+    text-align: center;
+    font-family: Letras;
+    font-size: 2.6rem;
+    margin-top: 10px;
+    margin-left: 2px;
+    line-height: 33px;
+    color: rgb(0, 0, 0);
+}
+}
